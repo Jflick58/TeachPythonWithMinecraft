@@ -82,6 +82,16 @@ Look out for Pete the pig. For some questions he'll give hints on how to do them
 
 If you get an error saying 'Syntax error' double check you have typed everything correctly and try running your script again.
 
+### Targeted Curriculum
+Key Stage 2
+
+•   Design, write and debug programs that accomplish specific goals, including controlling or simulating physical systems; solve problems by decomposing them into smaller parts.
+
+•   Use sequence, selection, and repetition in programs; work with variables and various forms of input and output.
+
+Key Stage 3
+
+•	Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems; make appropriate use of data structures, design and develop modular programs that use procedures or functions.
 
 ### Useful Block ID's
 
