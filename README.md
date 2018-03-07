@@ -4,16 +4,20 @@ Teaching Python programming and concepts using the Python Minecraft API for the 
 ![alt text](https://www.evcomputing.com/wp-content/uploads/2016/05/minecraft-python.png)
 
 ## Background
-This is the repo for the Florin High School (Sacramento, CA) Python workshop at KPMG. In this workshop, you'll learn Python programming and programming concepts by writing methods to control in-game Minecraft activites, and then you will connect those actions to a Flask-based website to act as a controller. We distributed Rapsberry Pi to the students for them to take with them after the workshop. If you don't have a rapsberry pi, you can emulate one on any Mac, Windows or Linux computer by following the instructions in [this link](https://azeria-labs.com/emulate-raspberry-pi-with-qemu/)
+This is the repo for the Florin High School (Sacramento, CA) Python workshop at KPMG. In this workshop, you'll learn Python programming and programming concepts by writing methods to control in-game Minecraft activites, and then you will connect those actions to a Flask-based website to act as a controller. We distributed Rapsberry Pi to the students for them to take with them after the workshop. If you don't have a rapsberry pi, you can emulate one on any Mac, Windows or Linux computer by following the instructions in [this link.](https://azeria-labs.com/emulate-raspberry-pi-with-qemu/)
 
 You'll learn: 
 
 - Basic version control with Github
 - Python Virtual Environments 
 - Dependency Management 
-- Flow control 
-- Recursion 
+- Variables
+- If Statements
+- Loops
+- Functions
 - Backend Web Development concepts 
+
+All this culimnating in a Flask-based Web controller for Minecraft Pi.
 
 ## How to use this repo 
 1. Login to github with your account 
@@ -38,4 +42,9 @@ You'll learn:
 
 11. Follow the lessons in the Lessons Folder.
 
+## Credits
+
+- Github user [jeremycook94](https://github.com/jeremycook94/Project) for creating most of the lesson plans
+- [EV Computing](https://www.evcomputing.com/classdescriptions/minecraft-programming-with-python) for the readme image.
+- [The Raspberry Pi Foundation](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) for their work on     Rapsberry Pi, and the Raspbian image that contains the Python and Minecraft distrobutions used in this workshop.
 
