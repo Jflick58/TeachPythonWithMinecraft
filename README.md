@@ -92,8 +92,8 @@ If you get an error saying 'Syntax error' double check you have typed everything
 | Grass | 2      |  ![Grass](http://s23.postimg.org/ubtw3m0nb/Grass.png) |Sand|12|![Sand](http://s21.postimg.org/tkun3jj03/Sand.png)
 |Dirt | 3| ![Dirt](http://s24.postimg.org/deit4k2ht/dirt.png)|Gravel|13|![Gravel](http://s17.postimg.org/fj8gcdvp7/Gravel_Pre_12w21a.png)
 |Cobblestone| 4| ![Cobble](http://s13.postimg.org/uey7u78s3/Cobblestone.png)|Glass|20|![Glass](http://s14.postimg.org/ig3w5w3m5/Glass.png)
-|Leaves|18||Lava|11|
-|Water|9|
+|Leaves|18|![Leaves](https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/1/1b/Oak_Leaves_%28Fast%29.png?version=cae729b4eb84205cb2b67c27863a57f2)|Lava|11|![Lava](https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/0/0b/LavaMCPE.png?version=df7b9e8437727bf5043cd5b3b474d0f1)
+|Water|9|![Water](https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/9/9d/Water.png)
 
 ## Credits
 
