@@ -4,7 +4,7 @@ Teaching Python programming and concepts using the Python Minecraft API for the 
 ![alt text](https://www.evcomputing.com/wp-content/uploads/2016/05/minecraft-python.png)
 
 ## Background
-This is the repo for the Florin High School (Sacramento, CA) Python workshop at KPMG. In this workshop, you'll learn Python programming and programming concepts by writing methods to control in-game Minecraft activites, and then you will connect those actions to a Flask-based website to act as a controller. We distributed Rapsberry Pi to the students for them to take with them after the workshop. If you don't have a rapsberry pi, you can emulate one on any Mac, Windows or Linux computer by following the instructions in [this link] (https://azeria-labs.com/emulate-raspberry-pi-with-qemu/)
+This is the repo for the Florin High School (Sacramento, CA) Python workshop at KPMG. In this workshop, you'll learn Python programming and programming concepts by writing methods to control in-game Minecraft activites, and then you will connect those actions to a Flask-based website to act as a controller. We distributed Rapsberry Pi to the students for them to take with them after the workshop. If you don't have a rapsberry pi, you can emulate one on any Mac, Windows or Linux computer by following the instructions in [this link](https://azeria-labs.com/emulate-raspberry-pi-with-qemu/)
 
 You'll learn: 
 
