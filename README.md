@@ -92,12 +92,13 @@ If you get an error saying 'Syntax error' double check you have typed everything
 | Grass | 2      |  ![Grass](http://s23.postimg.org/ubtw3m0nb/Grass.png) |Sand|12|![Sand](http://s21.postimg.org/tkun3jj03/Sand.png)
 |Dirt | 3| ![Dirt](http://s24.postimg.org/deit4k2ht/dirt.png)|Gravel|13|![Gravel](http://s17.postimg.org/fj8gcdvp7/Gravel_Pre_12w21a.png)
 |Cobblestone| 4| ![Cobble](http://s13.postimg.org/uey7u78s3/Cobblestone.png)|Glass|20|![Glass](http://s14.postimg.org/ig3w5w3m5/Glass.png)
-|Leaves|18|![Leaves](https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/7/72/LeavesPre0.0.9a.PNG/30px-LeavesPre0.0.9a.PNG?version=9ce8e84d81d0e5f371089b55e9f9b4c9)|Lava|11|![Lava](https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/0/0b/LavaMCPE.png?version=df7b9e8437727bf5043cd5b3b474d0f1)
-|Water|9|![Water](https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/9/9d/Water.png)
+|Leaves|18|![Leaves](https://github.com/Jflick58/TeachPythonWithMinecraft/blob/master/Images/leaves.png)|Lava|11|![Lava](https://github.com/Jflick58/TeachPythonWithMinecraft/blob/master/Images/lava.jpg)
+|Water|9|![Water](https://github.com/Jflick58/TeachPythonWithMinecraft/blob/master/Images/water.png)
 
 ## Credits
 
 - Github user [jeremycook94](https://github.com/jeremycook94/Project) for creating most of the lesson plans.
 - [EV Computing](https://www.evcomputing.com/classdescriptions/minecraft-programming-with-python) for the readme image.
 - [The Raspberry Pi Foundation](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) for their work on     Rapsberry Pi, and the Raspbian image that contains the Python and Minecraft distributions used in this workshop.
+- KPMG cowowrkers Matt Kwong, Andrew Suarez-Lopez, and Frank Wright
 
