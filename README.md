@@ -43,7 +43,6 @@ All this culimnating in a Flask-based Web controller for Minecraft Pi.
 11. Follow the lessons in the Lessons Folder.
 
 ## Useful Information
-----
 
 ##### Create a script
 
