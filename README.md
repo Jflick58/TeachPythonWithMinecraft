@@ -19,3 +19,18 @@ You'll learn:
 2. Click the "Star" button in the upper right hand corner.
 
 3. Click the "Fork" button
+
+4. Wait while Github copies the repo to your account 
+
+5. Click the "Clone/Download" button and download the repo as a zip file to your machine 
+
+6. Unzip the repo. Open a command prompt and `CD` to the location you extracted the repo to. 
+
+7. Type `virtualenv venv` and hit enter. 
+
+8. Wait while the virtual environment is activated. Then, type `source venv/bin/activate` and hit enter. 
+
+9. You should see (venv) on the left side of your command prompt. Type `pip3 install -r requirements.txt` and hit enter 
+
+10. You are read 
+
