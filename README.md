@@ -46,5 +46,5 @@ All this culimnating in a Flask-based Web controller for Minecraft Pi.
 
 - Github user [jeremycook94](https://github.com/jeremycook94/Project) for creating most of the lesson plans.
 - [EV Computing](https://www.evcomputing.com/classdescriptions/minecraft-programming-with-python) for the readme image.
-- [The Raspberry Pi Foundation](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) for their work on     Rapsberry Pi, and the Raspbian image that contains the Python and Minecraft distrobutions used in this workshop.
+- [The Raspberry Pi Foundation](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) for their work on     Rapsberry Pi, and the Raspbian image that contains the Python and Minecraft distributions used in this workshop.
 
