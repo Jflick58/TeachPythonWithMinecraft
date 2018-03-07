@@ -36,3 +36,6 @@ You'll learn:
 
 10. You are ready to start learning Python with Minecraft! Bonus: You finished your first lesson on version control, virtual environments, and dependency management! __Good Job!__
 
+11. Follow the lessons in the Lessons Folder.
+
+
