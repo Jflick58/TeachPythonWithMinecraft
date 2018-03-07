@@ -34,5 +34,5 @@ You'll learn:
 
 9. You should see (venv) on the left side of your command prompt. Type `pip3 install -r requirements.txt` and hit enter 
 
-10. You are read 
+10. You are ready to start learning Python with Minecraft! Bonus: You finished your first lesson on version control, virtual environments, and dependency management! _Good Job!_
 
