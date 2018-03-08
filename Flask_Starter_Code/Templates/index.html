@@ -7,9 +7,9 @@
   <title>Justin Flick&#x27;s Cool Project</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/justin-flicks-cool-project.webflow.css" rel="stylesheet" type="text/css">
+  <link href="{{ url_for('static', filename='css/normalize.css')}}" rel="stylesheet" type="text/css">
+  <link href="{{ url_for('static', filename='css/webflow.css')}}" rel="stylesheet" type="text/css">
+  <link href="{{ url_for('static', filename='css/justin-flicks-cool-project.webflow.css')}}" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Roboto Condensed:regular,700"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -22,27 +22,12 @@
     <h1 class="logo">PYTHON MINECRAFT CONTROLLER</h1>
     <div class="text-block"><strong>Learn Python with Minecraft</strong></div>
     <div class="sign-up-form w-form">
-      <form name="wf-form-signup-form" data-name="Signup Form" class="form"><a href="#" class="button-2 w-button">Tree</a><input type="submit" value="House" data-wait="Please wait..." class="submit-button-2 w-button"><input type="submit" value="Roof" data-wait="Please wait..." class="submit-button-3 w-button"><input type="submit" value="Custom" data-wait="Please wait..." class="submit-button w-button"></form>
-      <div class="success-message w-form-done">
-        <p>Thanks! You have been added to our beta list. </p>
-        <p class="spread-word">Help spread the word!</p>
-        <div class="social-widget-wrapper w-clearfix">
-          <div class="social-widget w-widget w-widget-twitter"><iframe src="https://platform.twitter.com/widgets/tweet_button.html#url=http%3A%2F%2Fwebflow.com&amp;counturl=webflow.com&amp;text=Check%20out%20this%20site&amp;count=horizontal&amp;size=m&amp;dnt=true" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 62px; height: 21px;"></iframe>
-            <div class="w-widget-twitter-count-shim">
-              <div class="w-widget-twitter-count-inner">...</div>
-            </div>
-          </div>
-          <div class="social-widget w-widget w-widget-facebook"><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fwebflow&amp;layout=button_count&amp;locale=en_US&amp;action=like&amp;show_faces=false&amp;share=false" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 90px; height: 20px;"></iframe></div>
-        </div>
+      <form name="wf-form-signup-form" data-name="Signup Form" class="form"><a href="#" class="button-2 w-button" action="/tree/" method="GET">Tree</a><a href="#" class="button-3 w-button" action="/house/" method="GET">House</a><a href="#" class="button-4 w-button" action="/roof/" metod="GET">Roof</a><a href="#" class="button-5 w-button" action="/custom/" method="GET">Custom</a></form>
       </div>
-      <div class="error-message w-form-fail">
-        <p>Oops! Something went wrong while submitting the form. :(</p>
-      </div>
-    </div>
   </div>
   <div class="footer-section"></div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="{{ url_for('static', filename='js/webflow.js')}}" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
