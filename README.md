@@ -17,7 +17,7 @@ You'll learn:
 - Functions
 - Backend Web Development concepts 
 
-All this culimnating in a Flask-based Web controller for Minecraft Pi.
+__All this culimnating in a Flask-based Web controller for Minecraft Pi!__
 
 ## How to use this repo 
 1. Login to github with your account 
