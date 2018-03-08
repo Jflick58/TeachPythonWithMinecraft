@@ -19,6 +19,8 @@ You'll learn:
 
 __All this culminating in a Flask-based Web controller for Minecraft Pi!__
 
+![Controller](https://github.com/Jflick58/TeachPythonWithMinecraft/blob/master/Images/controller_screenshot.PNG)
+
 ## How to use this repo 
 1. Login to github with your account 
 
