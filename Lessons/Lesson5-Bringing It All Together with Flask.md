@@ -272,7 +272,7 @@ def tree():
     return render_template('index.html')
 ```
 
-Save your script and run it. Navigate to (127.0.0.1:5000/) in your browser. 
+Save your script and run it. Navigate to [127.0.0.1:5000/] in your browser. 
 
 You should see this: 
 
