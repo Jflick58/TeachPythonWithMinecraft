@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from mcpi.minecraft import Minecraft
+#from mcpi.minecraft import Minecraft
 
 app = Flask(__name__)
 
@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/tree/', methods=['GET'])
+@app.route('/tree/', methods=['POST, GET'])
 def tree():
     return render_template('index.html')
 
