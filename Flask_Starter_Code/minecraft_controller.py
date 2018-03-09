@@ -10,17 +10,11 @@ def home():
 def tree():
     return render_template('index.html')
 
-@app.route('/house/', methods=['GET'])
-def house():
-    return render_template('index.html')
+#add house 
 
-@app.route('/roof/', methods=['GET'])
-def roof():
-    return render_template('index.html')
+#add moat 
 
-@app.route('/custom/', methods=['GET'])
-def custom():
-    return render_template('index.html')
+#add custom
 
 
 if __name__ == '__main__':

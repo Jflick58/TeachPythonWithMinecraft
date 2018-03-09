@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 click==6.7
 Flask==0.12.2
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 Werkzeug==0.14.1
+=======
+click==6.7
+Flask==0.12.2
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+Werkzeug==0.14.1
+>>>>>>> cfc69230c8cb09eae8376a9e54fbd64ed7db2584

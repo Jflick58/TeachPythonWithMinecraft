@@ -42,7 +42,7 @@ Run your script, it should look like the image below:
 
 ![Tree](http://s11.postimg.org/opihb6ccz/T4y_OVpg.png)
 
-Save and close the script.
+Save the script. 
 
 -----
 ### Make a house
@@ -239,6 +239,48 @@ Now run this and it should look like the image below
 ![Moat](http://i.imgur.com/748gwAb.png)
 
 -----
+***Connecting to Flask***
+
+Flask is a simple Python framework for interacting with web sites and HTTP requests. 
+
+Open "minecraft_controller.py" which is located inside the "Flask_Starter_Code" file. 
+
+Look for the block of code that looks like this: 
+```python
+@app.route('/tree/', methods=['GET'])
+def tree():
+    return render_template('index.html')
+ ```
+ 
+ This an example of how Flask connects Python to a web page. ```@app.route('/tree/', methods=['GET'])``` defines the URL that triggers your Python code to do something. For example, once we run Flask, if you navigate to ```127.0.0.1/tree/```, you will trigger your script to create a tree. 
+ 
+```def tree()``` defines our Tree function within our Flask application. ```return render_template('index.html')``` defines our response. In Flask, rendering a template is how we show a website. 
+
+Let's make ```tree()``` actually do something. At the top of the script, add ```from structures_tree import Tree```
+
+Add the following code below ```def tree()```
+
+```
+Tree(6,4)
+```
+
+![finished](http://s23.postimg.org/5kh0j3ttn/145889050226849.gif)
+```
+@app.route('/tree/', methods=['GET'])
+def tree():
+    Tree(6,4)
+    return render_template('index.html')
+```
+
+Save your script and run it. Navigate to 127.0.0.1:5000 in your browser. 
+
+You should see this: 
+
+![screenshot](https://github.com/Jflick58/TeachPythonWithMinecraft/blob/master/Images/controller_screenshot.PNG)
+
+Click the tree button. You should see a tree appear in front of you in the game!
+
+
 ***Questions***
 
 **Between questions, run your 'flatgrass' script so you have more space**.
@@ -265,3 +307,20 @@ Now run this and it should look like the image below
 **Create in a new script and save as 'structures_question3'**
 
 
+4) Add the following:
+
+Write an ```app.route(url, method)``` that creates a house.
+
+**Save in mincecraft_controller.py**
+
+5) Add the following:
+
+Write an ```app.route(url, method)``` that creates a moat.
+
+**Save in mincecraft_controller.py**
+
+6) Add the following:
+
+Write an ```app.route(url, method)``` that creates a custom structure of your choosing!
+
+**Save in mincecraft_controller.py**
