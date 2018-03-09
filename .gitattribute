@@ -1,5 +1,7 @@
-*.css linguist-vendored=false
+normalize.css linguist-vendored
+justin-flicks-cool-project.webflow.css linguist-vendored
+webflow.css linguist-vendored
 
-*.js linguist-vendored=false
+webflow.js linguist-vendored
 
-*.html linguist-vendored=false
+index.html linguist-vendored
