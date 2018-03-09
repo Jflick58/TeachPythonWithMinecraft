@@ -1,3 +1,5 @@
-/Flask_Starter_Code/static/* linguist-vendored
+*.css linguist-vendored
 
-/Flask_Starter_Code/templates/* linguist-vendored
+*.js linguist-vendored
+
+*.htmel linguist-vendored
