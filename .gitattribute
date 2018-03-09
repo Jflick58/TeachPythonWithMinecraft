@@ -2,4 +2,4 @@
 
 *.js linguist-vendored
 
-*.htmel linguist-vendored
+*.html linguist-vendored
