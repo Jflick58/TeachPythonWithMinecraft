@@ -1,11 +1,3 @@
-normalize.css linguist-vendored
-justin-flicks-cool-project.webflow.css linguist-vendored
-webflow.css linguist-vendored
-
-webflow.js linguist-vendored
-
-index.html linguist-vendored
-
 *.css linguist-detectable=false
 *.js linguist-detectable=false
 *.html linguist-detectable=true
