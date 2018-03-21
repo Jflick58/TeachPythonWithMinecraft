@@ -57,6 +57,8 @@ We need to add an import for our script that will allow us to control Minecraft,
 
 ```python
 from mcpi.minecraft import Minecraft 
+
+mc = Minecraft.create()
 ```
 **This import will need to be entered for every script you create**
 
